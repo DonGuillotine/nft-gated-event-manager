@@ -66,10 +66,6 @@ npx hardhat compile
 npm test
 ```
 
-#### All tests passed
-
-![alt text](/screenshots/image.png)
-
 ### Deploy to Lisk Sepolia Testnet
 
 ```
@@ -101,6 +97,10 @@ The project includes a comprehensive test suite covering all main functionalitie
 npm test
 ```
 
+#### All tests passed
+
+![alt text](/screenshots/image.png)
+
 ## Deployment
 
 The contracts are designed to be deployed on the Lisk Sepolia testnet. To deploy:
@@ -111,6 +111,22 @@ The contracts are designed to be deployed on the Lisk Sepolia testnet. To deploy
    npx hardhat run scripts/deploy.js --network lisk-sepolia
    ```
 3. The script will output the addresses of the deployed contracts. Save these for future interactions.
+
+#### Deployed Contracts
+
+The smart contracts for this project have been deployed on the Lisk Sepolia testnet. You can interact with them using the following links:
+
+### EventNFT Contract
+- Address: `0x4E2Cb0e9559899Fa1694127c42FdF17607e8910D`
+- Interact: [Lisk Sepolia BlockScout - EventNFT](https://sepolia-blockscout.lisk.com/address/0x4E2Cb0e9559899Fa1694127c42FdF17607e8910D?tab=write_contract)
+
+### EventManager Contract
+- Address: `0xb9156f123A7D173FD39824792C768caB8918879a`
+- Interact: [Lisk Sepolia BlockScout - EventManager](https://sepolia-blockscout.lisk.com/address/0xb9156f123A7D173FD39824792C768caB8918879a?tab=write_contract)
+
+You can use these links to directly interact with the deployed contracts through the Lisk Sepolia BlockScout interface. This allows you to call contract functions, create events, mint NFTs, and register for events using the Lisk Sepolia testnet.
+
+Note: Make sure you have Lisk Sepolia testnet ETH in your wallet to interact with these contracts.
 
 ## Security
 
